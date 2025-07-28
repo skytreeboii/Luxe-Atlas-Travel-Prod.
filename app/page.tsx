@@ -7,7 +7,7 @@ import { Star, Users, Shield, Clock, Ship, Castle, MapPin } from "lucide-react"
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="sticky top-0 z-40 w-full border-b border-luxury-gold/20 glass-effect">
+      <header className="sticky top-0 z-50 w-full bg-black/60 backdrop-blur-sm text-white border-b border-luxury-gold/20">
         <div className="container flex h-20 items-center">
           <div className="mr-4 hidden md:flex">
             <Link href="/" className="mr-8 flex items-center space-x-3">
