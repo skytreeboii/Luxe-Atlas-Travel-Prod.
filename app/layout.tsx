@@ -1,4 +1,3 @@
-import Head from "next/head";
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
@@ -21,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head> <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <head>
         <link
           rel="icon"
           href="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-full-U31Nd5AUR6sTnzx9kkpmx5XMB2CKto.png"

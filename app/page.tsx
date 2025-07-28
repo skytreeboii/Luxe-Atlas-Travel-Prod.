@@ -7,7 +7,7 @@ import { Star, Users, Shield, Clock, Ship, Castle, MapPin } from "lucide-react"
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="sticky top-0 z-50 w-full bg-black/60 backdrop-blur-sm text-white border-b border-luxury-gold/20">
+      <header className="sticky top-0 z-40 w-full border-b border-luxury-gold/20 glass-effect">
         <div className="container flex h-20 items-center">
           <div className="mr-4 hidden md:flex">
             <Link href="/" className="mr-8 flex items-center space-x-3">
@@ -50,7 +50,7 @@ export default function Home() {
       </header>
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="w-full pt-28 py-12 md:py-24 lg:py-32 xl:py-48 relative">
+        <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 relative">
           <div className="absolute inset-0 z-0">
             <img
               src="/images/hero-luxury-beach.png"
